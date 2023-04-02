@@ -1,0 +1,82 @@
+.is-hidden {
+    visibility: hidden;
+}
+
+img {
+    display: block;
+}
+
+.photo-card {
+background-color: transparent;
+
+}
+.gallery__link{
+    text-decoration: none;
+} 
+
+.info{
+    text-align: center;
+    padding: 5px 10px;
+} 
+.info-item{
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 400;
+
+}
+.search-form{
+    display: flex;
+    align-items: center;
+
+
+    background-color:transparent;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+     
+    
+    z-index: 100;
+}
+.gallery{
+    margin: 50px;
+    
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+input{
+    height: 30px;
+    border: 1px solid rgb(255, 191, 0);
+    border-radius: 5px;
+
+    outline:invert($color: rgb(0, 128, 255))
+    }
+.submit{
+    padding: 5px 20px;
+    margin-left: 10px;
+
+    color: white;
+    background-color: rgb(0, 128, 255);
+    cursor: pointer;
+    text-align: center;
+    
+    border-radius: 5px;
+    border:  white;
+}
+
+.load-more {
+    display: flex;
+    padding: 10px 20px;
+
+    margin: 30px auto;
+    
+
+    color: white;
+    background-color:rgb(0, 128, 255);
+    cursor: pointer;
+    text-align: center;
+    
+    border-radius: 5px;
+    border: white;
+   
+}
